@@ -34,6 +34,7 @@ from ...image_processing_utils_fast import (
     group_images_by_shape,
     reorder_images,
 )
+from ...image_transforms import get_size_with_aspect_ratio
 from ...image_utils import (
     IMAGENET_DEFAULT_MEAN,
     IMAGENET_DEFAULT_STD,
@@ -47,7 +48,6 @@ from .image_processing_mask2former import (
     Mask2FormerImageProcessorKwargs,
     compute_segments,
     convert_segmentation_to_rle,
-    get_size_with_aspect_ratio,
     remove_low_and_no_objects,
 )
 

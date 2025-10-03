@@ -23,7 +23,6 @@ from .image_processing_utils import BaseImageProcessor, BatchFeature, get_size_d
 from .image_transforms import (
     convert_to_rgb,
     get_resize_output_image_size,
-    get_size_with_aspect_ratio,
     group_images_by_shape,
     reorder_images,
 )

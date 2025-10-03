@@ -22,14 +22,13 @@ from typing import Any, Optional, Union
 
 import numpy as np
 
-from transformers.image_transforms import get_size_with_aspect_ratio
-
 from ...feature_extraction_utils import BatchFeature
 from ...image_processing_utils import BaseImageProcessor, ImagesKwargs, get_size_dict
 from ...image_transforms import (
     PaddingMode,
     center_to_corners_format,
     corners_to_center_format,
+    get_size_with_aspect_ratio,
     id_to_rgb,
     pad,
     rescale,
